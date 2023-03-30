@@ -1,0 +1,22 @@
+{
+    "name": "arif/horse-move-chess",
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arif",
+            "email": "arifkutq63@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
